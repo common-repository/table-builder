@@ -1,0 +1,39 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/*.column-div {display:block;height:30px;width:50px;float:left;margin:5px;padding:10px;line-height:30px;vertical-align:middle; }*/
+.icdb-column-parent {width: 100%;height: 100%;display: table;text-align: center;}
+.icdb-column-parent >.icdb-column-div 
+	{
+		display: table-cell; 
+		min-width:30px; 
+		float:left;
+		margin:5px;
+		padding:10px;
+		vertical-align:middle;
+		cursor:move;
+		white-space: nowrap;
+	}
+.icdb-button {padding:10px;}
+
+#icdb-column-sel-ui-parent
+{
+padding:5px;
+margin-bottom:10px;
+border:2px groove white !important;
+}
+
+.icdb-input-field
+{
+height:30px;
+width:100%;
+font-family:Courier New !important;
+}
+
+.icdb-input-label
+{
+float:right;
+font-size:12px;
+}
